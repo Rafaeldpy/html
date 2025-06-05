@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>One Piece store</title>
+    <link rel="shortcut icon" type="image/png" href="/img/imagess.png"/>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <style>
+     html, body {
+      min-height: 100vh;
+      display: flex; 
+      flex-direction: column;
+      margin: 0;
+     }
+     main {
+      flex: 1;
+     }
+     footer {
+      width: 100%;
+     }
+    </style>
+</head>
+<body class="bg-warning-subtle"> 
+    <header>
+        <nav class="navbar navbar-expand-lg text-bg-danger">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">One Piece store</a>
+            <img src="/img/imagess.png" alt="One Piece" width="30" height="24">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a type="button" class="btn btn-outline-warning" href="/pages/produtos.html">Produtos</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <button type="button" class="btn btn-outline-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="/pages/contatos.html">Contatos</a></li>
+                    <li><a class="dropdown-item" href="#">Em Breve</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Em Breve</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+    </header>
+        
+    <!-- Aqui é meu Script -->
+     <script src="/2ano2025-main/2ano2025-main/js/script.js"></script>
+    <main> 
+      <h1> One Piece Store </h1>
+      <div class="container">
+        <table class="table table-hover">    
+
+        <thead>
+          <tr>
+            <th>imagem</th>
+             <th>produto</th>
+              <th>pre</th>
+              <th>quantidade uni.</th>
+              <th>total</th>
+          </tr>
+
+        </thead>
+
+        <tbody>
+          <tr>
+            <td><img src="/img/PRODUTO1.jpg" alt="Caneca" width="200"></td> <!-- Titulo Img -->
+            <td>
+              <div>Nome:</div>
+            <div>Tamanho:</div> <!-- Titulo Produto -->
+            <div>Cor:</div>
+          </td>
+            <td>R$ 25.70</td> <!-- Titulo Preço -->
+            <td>
+              <input type="number" value="0" name="" id=""> <!-- Titulo Quantidade -->
+            </td>
+            <td>R$ 0.0</td> <!-- Titulo Total -->
+          </tr>
+
+          <tr>
+            <td><img src="/img/PRODUTO2.jpg" alt="Manga" width="200"></td> <!-- Titulo Img -->
+            <td>
+              <div>Nome:</div>
+            <div>Tamanho:</div> <!-- Titulo Produto -->
+            <div>Cor:</div>
+          </td>
+            <td>R$ 45.90</td> <!-- Titulo Preço -->
+            <td>
+              <input type="number" value="0" name="" id=""> <!-- Titulo Quantidade -->
+            </td>
+            <td>R$ 0.0</td> <!-- Titulo Total -->
+          </tr>
+
+          <tr>
+            <td><img src="/img/PRODUTO3.jpg" alt="Action Figure" width="200"></td> <!-- Titulo Img -->
+            <td>
+              <div>Nome:</div>
+            <div>Tamanho:</div> <!-- Titulo Produto -->
+            <div>Cor:</div>
+          </td>
+            <td>R$ 0.0</td> <!-- Titulo Preço -->
+            <td>
+              <input type="number" value="0" name="" id=""> <!-- Titulo Quantidade -->
+            </td>
+            <td>R$ 40.90</td> <!-- Titulo Total -->
+          </tr>
+
+
+
+        </tbody>
+
+        </table>
+      </div>
+    </main>    
+    
+    <footer class="text-muted bg-light">
+      <div>
+        <p class="p-3 m-0 text-center container-fluid">&copy; Rafael Duarte, 2025</p>
+      </div>
+    </footer>
+
+    <!-- Importar o JS do Bootstrap e dependências -->
+    <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
